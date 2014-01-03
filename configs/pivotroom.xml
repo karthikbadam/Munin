@@ -1,0 +1,66 @@
+<space-config>
+
+	<name>PivotRoom</name>
+	<desc>Configuration for tiled-LCD display wall and tabletop display.</desc>
+	
+	<surface id="wall" name="PivotWall">
+	
+		<surface id="left" name="Left computer">
+			<surface id="upper" name="Upper left screen">
+				<world-geometry x="0" y="0" width="1920" height="1080"/>
+				<screen-geometry x="0" y="-1080" width="1920" height="1080"/>
+				<full-screen/>
+			</surface>
+	
+			<surface id="left" name="Lower left screen">
+				<world-geometry x="0" y="1080" width="1920" height="1080"/>
+				<screen-geometry x="0" y="0" width="1920" height="1080"/>
+				<full-screen/>
+			</surface>
+		</surface>
+
+		<surface id="middle" name="Middle computer">
+			<surface id="upper" name="Upper middle screen">
+				<world-geometry x="1920" y="0" width="1920" height="1080"/>
+				<screen-geometry x="0" y="-1080" width="1920" height="1080"/>
+				<full-screen/>
+			</surface>
+	
+			<surface id="lower" name="Lower middle screen">
+				<world-geometry x="1920" y="1080" width="1920" height="1080"/>
+				<screen-geometry x="0" y="0" width="1920" height="1080"/>
+				<full-screen/>
+			</surface>
+		</surface>
+
+		<surface id="right" name="Right computer">
+			<surface id="upper" name="Upper right screen">
+				<world-geometry x="3840" y="0" width="1920" height="1080"/>
+				<screen-geometry x="0" y="-1080" width="1920" height="1080"/>
+				<full-screen/>
+			</surface>
+	
+			<surface id="lower" name="Lower right screen">
+				<world-geometry x="3840" y="1080" width="1920" height="1080"/>
+				<screen-geometry x="0" y="0" width="1920" height="1080"/>
+				<full-screen/>
+			</surface>
+		</surface>
+
+		<surface id="table" name="Tabletop computer">
+			<surface id="top" name="Tabletop top screen">
+				<world-geometry x="2160" y="2160" width="1440" height="900"/>
+				<screen-geometry x="0" y="-900" width="1440" height="900"/>
+				<full-screen/>
+			</surface>
+	
+			<surface id="bottom" name="Tabletop bottom screen">
+				<world-geometry x="2160" y="3060" width="1440" height="900"/>
+				<screen-geometry x="0" y="0" width="1440" height="900"/>
+				<full-screen/>
+			</surface>
+		</surface>
+
+	</surface>
+
+</space-config>

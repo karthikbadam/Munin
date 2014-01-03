@@ -1,0 +1,22 @@
+<space-config>
+
+	<name>DualMonitors</name>
+	<desc>Configuration for two side-by-side monitors.</desc>
+	
+	<surface id="dual" name="DualMon">
+	
+		<surface id="left" name="Left screen">
+			<world-geometry x="0" y="0" width="1920" height="1080"/>
+			<screen-geometry x="0" y="0" width="1920" height="1080"/>
+			<full-screen/>
+		</surface>
+	
+		<surface id="right" name="Right screen">
+			<world-geometry x="1920" y="0" width="1440" height="900"/>
+			<screen-geometry x="1920" y="0" width="1440" height="900"/>
+			<full-screen/>
+		</surface>
+		
+	</surface>
+
+</space-config>

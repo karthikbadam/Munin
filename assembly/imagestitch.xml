@@ -1,0 +1,15 @@
+<assembly>
+
+    <name>ImageStitch</name>
+    <desc>Stitching an image across an entire surface.</desc>
+
+    <node id="normal" name="Normal">
+        <desc>Standard display node.</desc>
+        <run-service name="PiccoloDisplayService" type="display" min-version="0"/>
+        <run-service name="PiccoloDefaultRenderer" type="renderer" min-version="0"/>
+        <!-- <run-service name="MouseService" type="input"/> -->
+        <run-service name="ImageStitch" type="app"/>
+    </node>
+
+</assembly>
+

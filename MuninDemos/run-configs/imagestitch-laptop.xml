@@ -1,0 +1,13 @@
+<run-config>
+	
+	<name>ImageStitch</name>
+	<space-config ref="two-windows.xml"/>
+	
+	<exec>
+	
+		<run service="ImageStitch" host="Elmqvist-E6520" surface="two-windows.screen.left-window"/>
+		<run service="ImageStitch" host="Elmqvist-E6520" surface="two-windows.screen.right-window"/>
+	
+	</exec>
+	
+</run-config>

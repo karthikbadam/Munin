@@ -1,0 +1,72 @@
+---------------------------------------------------------------------
+TODO - MUNIN DEMOS
+Niklas Elmqvist - June 1, 2011
+---------------------------------------------------------------------
+
+Demos to implement:
+[X] Application launchpad (for launching demos across multiple machines)?
+[X] Image stitch (event-driven)
+[X] Mouse stitch (event-driven) 
+[X] Tetris game (real-time simulation component)
+[X] Multidimensional visualization
+[X] Video player (external and internal events)
+[ ] Vector drawing (event-driven)
+
+
+General issues:
+[X] Toggle fullscreen and windowed mode for all demos
+[X] Create a demo-wide property file with the java.net.preferIPv4Stack=true property
+[X] Do we need to maintain a shared geometry list in order to accommodate different-sized windows?
+[X] For a shared object to be usable as an event, we need to be able to build content before creating it
+[X] Combine all of the demos into the same shared space (same as the launchpad)?
+[ ] Manage logging so that it makes sense (save the logs?)
+[ ] Persistent store of shared space?
+
+
+Application launchpad: (outside the scope of this project?)
+[ ] Support discovery of devices (connect to the launchpad detector?)
+[ ] App families, maintains app layout and which apps are compatible
+[ ] Store default configuration and startup surface in property file
+[ ] Create script or executable for restarting and updating launchpad
+[ ] Launchpad application has a suitable icon
+[ ] Support for run configurations that map machines to surfaces and apps/services 
+[ ] List of run configurations in user interface
+[X] Geometry management
+[N] Force the launchpad to run as a single instance per host? (solve by listening to a localhost port)
+[X] All Munin applications are apps (should now be services?)
+[X] Contains information about physical configuration of devices
+[X] List of connected launchpads
+[X] List of all connected peers
+[N] Launchpads can run in master or slave mode (toggle with a UI checkbox or button?)
+[X] Allow for shutdown of all launchpads 
+[X] List of plugins
+[X] List of space configurations
+
+
+Visualization example: 
+[X] Multidimensional visualization
+
+
+Image stitch - spread large images over multiple peers:
+[X] Handle viewport resize
+[X] Support fullscreen for this demo
+[X] Fix the calculation of tiles depending on size
+[~] Fix the horizontal size bug (due to differing viewport sizes)
+[X] Resetting view (set offsets to zero)
+[X] Allow for zooming
+
+
+Vector editor - allow for editing vector figures across multiple instances:
+[ ] Correct depth order
+[ ] Support multiple types of vectors 
+[ ] Viewport management and navigation
+
+
+Tetris game - play Tetris across several screens (separate render and control):
+[ ] Implement Android controller
+
+
+Video player - play video across several screens (maybe use VLC and VLCJ - http://www.capricasoftware.co.uk/vlcj/)
+[X] Eli Fisher's project
+[X] Export a byte buffer from a master instance
+[X] Synchronize merely a stream from multiple instances (YouTube etc)

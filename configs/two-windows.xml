@@ -1,0 +1,22 @@
+<space-config>
+
+	<name>Two-windows</name>
+	<desc>Configuration for two windows on a single screen.</desc>
+	
+	<surface id="two-windows" name="Two-window setup">
+		
+		<surface id="left-window" name="Left window">
+			<world-geometry x="0" y="0" width="800" height="800"/>
+			<screen-geometry x="0" y="0" width="800" height="800"/>
+			<windowed/>
+		</surface>
+
+		<surface id="right-window" name="Right window">
+			<world-geometry x="800" y="0" width="800" height="800"/>
+			<screen-geometry x="800" y="0" width="800" height="800"/>
+			<windowed/>
+		</surface>
+
+	</surface>
+	
+</space-config>

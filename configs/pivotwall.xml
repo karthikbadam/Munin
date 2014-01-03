@@ -1,0 +1,52 @@
+<space-config>
+
+	<name>PivotWall</name>
+	<desc>Configuration for 3x2 1920x1080 tiled-LCD display wall.</desc>
+	
+	<surface id="wall" name="PivotWall">
+	
+		<surface id="left" name="Left computer">
+			<surface id="upper" name="Upper left screen">
+				<world-geometry x="0" y="0" width="1920" height="1080"/>
+				<screen-geometry x="0" y="0" width="1920" height="1080"/>
+				<full-screen/>
+			</surface>
+	
+			<surface id="left" name="Lower left screen">
+				<world-geometry x="0" y="1080" width="1920" height="1080"/>
+				<screen-geometry x="0" y="1080" width="1920" height="1080"/>
+				<full-screen/>
+			</surface>
+		</surface>
+
+		<surface id="middle" name="Middle computer">
+			<surface id="upper" name="Upper middle screen">
+				<world-geometry x="1920" y="0" width="1920" height="1080"/>
+				<screen-geometry x="0" y="0" width="1920" height="1080"/>
+				<full-screen/>
+			</surface>
+	
+			<surface id="lower" name="Lower middle screen">
+				<world-geometry x="1920" y="1080" width="1920" height="1080"/>
+				<screen-geometry x="0" y="1080" width="1920" height="1080"/>
+				<full-screen/>
+			</surface>
+		</surface>
+
+		<surface id="right" name="Right computer">
+			<surface id="upper" name="Upper right screen">
+				<world-geometry x="3840" y="0" width="1920" height="1080"/>
+				<screen-geometry x="0" y="0" width="1920" height="1080"/>
+				<full-screen/>
+			</surface>
+	
+			<surface id="lower" name="Lower right screen">
+				<world-geometry x="3840" y="1080" width="1920" height="1080"/>
+				<screen-geometry x="0" y="1080" width="1920" height="1080"/>
+				<full-screen/>
+			</surface>
+		</surface>
+
+	</surface>
+
+</space-config>
