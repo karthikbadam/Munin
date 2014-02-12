@@ -54,7 +54,7 @@ import edu.purdue.munin.util.UILib;
  */
 public class LaunchPad {
 
-	private static final String 	DEFAULT_CHANNEL_NAME 		= "edu.purdue.munin";
+	private static final String 	DEFAULT_CHANNEL_NAME 		= "edu.munin";
 	private static final int 		VIEWPORT_WIDTH				= 1000;
 	private static final int 		VIEWPORT_HEIGHT				= 400;
 

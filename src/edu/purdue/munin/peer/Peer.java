@@ -24,7 +24,7 @@ public class Peer {
     public Peer(String name) throws Exception {
     	this.name = name;
     	// "http://engineering.purdue.edu/~elm/projects/munin/munin.xml"
-        channel = new JChannel(new File("C:\\Users\\elm\\Documents\\Dev\\Workspace\\Munin\\munin.xml"));
+        channel = new JChannel(new File("munin.xml"));
         state = new SharedSpace(channel);
         channel.setReceiver(state);
     }
