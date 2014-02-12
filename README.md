@@ -46,3 +46,4 @@ Resources for Newcomers
 ---
   - [The Wiki](https://github.com/karthikbadam/munin/wiki)
   - [How to run a Munin service](https://github.com/karthikbadam/Munin/wiki/How-to-run-a-service)   
+  - [How to create a Munin service](https://github.com/karthikbadam/Munin/wiki/How-to-create-a-new-service)   
