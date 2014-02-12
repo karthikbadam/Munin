@@ -39,3 +39,10 @@ How to compile and run:
    - This opens up a launch pad with the proper space configuration settings. 
 <br><br>
 <img src="https://github.com/karthikbadam/Munin/blob/master/instructions/munin_launchpad.png?raw=true">
+
+   - The menu on the left shows the list of services (some of which are part of Munin while others are from Munin Demos). These include a display service, rendering service, imageStitch (splits an image across peers based on space configuration), zoomPan, scribble, and more. Staring the display service, the rendering service, and then a user developed service is the logical sequence for executing the examples. 
+
+Resources for Newcomers
+---
+  - [The Wiki](https://github.com/karthikbadam/munin/wiki)
+  - [How to run a Munin service](https://github.com/karthikbadam/munin/wiki)   
