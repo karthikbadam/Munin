@@ -45,4 +45,4 @@ How to compile and run:
 Resources for Newcomers
 ---
   - [The Wiki](https://github.com/karthikbadam/munin/wiki)
-  - [How to run a Munin service](https://github.com/karthikbadam/munin/wiki)   
+  - [How to run a Munin service](https://github.com/karthikbadam/Munin/wiki/How-to-run-a-service)   
