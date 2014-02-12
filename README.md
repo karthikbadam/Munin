@@ -22,9 +22,7 @@ How to compile and run:
    
 <img src="https://github.com/karthikbadam/Munin/blob/master/instructions/munin_projects.PNG?raw=true">
 <br>
-<img src="https://github.com/karthikbadam/Munin/blob/master/instructions/munin_run1.PNG?raw=true">
-<br>
-   
+
    - Run *LaunchPad.java* as a Java application. This class provides a remote to start services on Munin peers. 
 <br><br>
 <img src="https://github.com/karthikbadam/Munin/blob/master/instructions/munin_run2.png?raw=true">
