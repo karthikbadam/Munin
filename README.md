@@ -40,7 +40,7 @@ How to compile and run:
 <br><br>
 <img src="https://github.com/karthikbadam/Munin/blob/master/instructions/munin_launchpad.png?raw=true">
 
-   - The menu on the left shows the list of services (some of which are part of Munin while others are from Munin Demos). These include a display service, rendering service, ImageStitch (splits an image across peers based on space configuration), ZoomPanner, Scribble, MultiDim (for building multi-dimensional data visualizations) and more! Starting the display service, the rendering service, and then a user developed service is the logical sequence for executing the examples. The **surfaces** menu provides choices for the display configuration of the devices (peers).
+   - The menu on the left shows the list of services (some of which are part of Munin while others are from Munin Demos). These include a display service, rendering service, ImageStitch (splits an image across peers based on space configuration), ZoomPanner, Scribble, MultiDim (for building multi-dimensional data visualizations) and more! Starting the display service, the rendering service, and then the sample service is the logical sequence for executing the examples. The **surfaces** menu provides choices for the display configuration of the devices (peers).
 
 Resources for Newcomers
 ---
