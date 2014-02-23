@@ -28,15 +28,15 @@ How to compile and run:
 <img src="https://github.com/karthikbadam/Munin/blob/master/instructions/munin_run2.png?raw=true">
 
 
-   - This opens a textbox for naming the Munin space. Note that all devices within the peer-to-peer network should use the same id.
+   - This opens a textbox for naming the Munin space. Note that all devices within the peer-to-peer network should use the same ID.
 <br><br>
 <img src="https://github.com/karthikbadam/Munin/blob/master/instructions/munin_name_space.png?raw=true">
 
-   - Select a space configuration. We have provided samples for two window, dual monitor, and 3x2 display wall settings in the *configs/* folder.   
+   - Select a space configuration. We have provided samples for two window, dual monitor, and a 3x2 display wall setting in the *configs/* folder.   
 <br>
 <img src="https://github.com/karthikbadam/Munin/blob/master/instructions/munin_space_configuration.png?raw=true">
 
-   - This opens up a launch pad with the proper space configuration settings. 
+   - This opens up a launchpad with the proper space configuration settings. 
 <br><br>
 <img src="https://github.com/karthikbadam/Munin/blob/master/instructions/munin_launchpad.png?raw=true">
 
